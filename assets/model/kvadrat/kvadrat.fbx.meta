@@ -1,0 +1,174 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c8a5090c-2bdd-43a2-9f56-62b7e606bf23",
+  "files": [],
+  "subMetas": {
+    "48054": {
+      "importer": "gltf-scene",
+      "uuid": "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@48054",
+      "displayName": "",
+      "id": "48054",
+      "name": "kvadrat.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e113c": {
+      "importer": "gltf-mesh",
+      "uuid": "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@e113c",
+      "displayName": "",
+      "id": "e113c",
+      "name": "Mesh.360.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 10
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1beed": {
+      "importer": "gltf-material",
+      "uuid": "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@1beed",
+      "displayName": "",
+      "id": "1beed",
+      "name": "Lumber_OtherObjects.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@48054",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@e113c"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@1beed"
+      ],
+      "scenes": [
+        "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@48054"
+      ]
+    },
+    "materials": {
+      "c8a5090c-2bdd-43a2-9f56-62b7e606bf23@1beed": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 2,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "d4028055-7646-43b9-97e7-7e815ee42c11@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 2,
+            "shininessExponent": 0,
+            "specularFactor": 0,
+            "transparencyFactor": 0,
+            "normalStrength": 1.526
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

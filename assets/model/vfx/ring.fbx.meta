@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0f2b23da-f78b-4922-85f3-6934ae0d269f",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "0f2b23da-f78b-4922-85f3-6934ae0d269f@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 48
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ff494": {
+      "importer": "gltf-material",
+      "uuid": "0f2b23da-f78b-4922-85f3-6934ae0d269f@ff494",
+      "displayName": "",
+      "id": "ff494",
+      "name": "Material_001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78f17": {
+      "importer": "gltf-scene",
+      "uuid": "0f2b23da-f78b-4922-85f3-6934ae0d269f@78f17",
+      "displayName": "",
+      "id": "78f17",
+      "name": "ring.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0f2b23da-f78b-4922-85f3-6934ae0d269f@78f17",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0f2b23da-f78b-4922-85f3-6934ae0d269f@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0f2b23da-f78b-4922-85f3-6934ae0d269f@ff494"
+      ],
+      "scenes": [
+        "0f2b23da-f78b-4922-85f3-6934ae0d269f@78f17"
+      ]
+    }
+  }
+}
